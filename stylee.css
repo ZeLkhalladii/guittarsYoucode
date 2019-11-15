@@ -1,0 +1,105 @@
+
+  body{
+    margin:0 ;
+    background-image:url('depositphotos_183087520-stock-illustration-abstract-grunge-background-with-acoustic.jpg')
+  }
+  #nav {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* centrer le texte */
+    
+  }
+  #nav li {
+    display: inline-block;
+    list-style: none;
+    
+  }
+  #nav a {
+    display:inline-block;
+    margin: 0 50px;
+    color: white;
+  }
+  #nav a:hover {
+    color: yellow;
+
+  }
+  #nav {
+    
+    padding: 600; margin: 0;
+    text-align: center; /* centrer le texte */
+    
+  }
+  #nav li {
+    display: inline;
+    list-style: none;
+    
+  }
+  #nav a {
+    display:inline-block;
+    margin: 0 50px;
+    color: white;
+  }
+  #nav a:hover {
+    color: yellow;
+
+  }
+  #nav li {
+    display: inline;
+    list-style: none;
+    
+  }
+  #nav a {
+    display:inline-block;
+    margin: 0 50px;
+    color: white;
+  }
+  #nav a:hover {
+    color: yellow;
+
+  }
+  .menu{
+    margin: 0;
+    background-color: rgb(14, 12, 12);
+    position: fixed;
+    left: 0;
+    top: 0;
+    list-style: none;
+    height: 100vh;
+  }
+  .menu a {
+   
+    color: rgb(245, 231, 231);
+    display: block;
+    width: 150px;
+    text-decoration: none;
+   
+
+  }
+  
+  .menu a:hover {
+    background-color: rgb(100, 97, 70);
+  }
+  
+  .menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .body-contents{
+    position: absolute;
+    left: 300px;
+  }
+  .content{
+    margin: 20px;
+    display: inline-block;
+    width: 250PX;
+    height: 200px;
+    box-shadow: 0 0 #333333;
+  }
+  .content img{
+    display: block;
+    width: 100%;
+  }
+  .content p{
+    color: blanchedalmond;
+  }
